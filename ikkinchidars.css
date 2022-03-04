@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+
+}
+body{
+    background-color: blueviolet;
+}
+.navigation{
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    background-color: rgba(153, 143, 143, 0.507);
+    z-index: 2;
+}
+.navigation_container{
+    height: 80px;
+    width: 60%;
+   
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.navigation_logo{
+    color: white;
+    font-weight: 900;
+    flex: 1;
+}
+.navigation_logo>span{
+    color: #ed563b;
+}
+.navigation_collection{
+    display: flex;
+}
+.collection_item{
+margin: 0px 20px;
+list-style-type:none;
+
+}
+.collection_item>a{
+    color: white;
+    text-decoration: none;
+}
+.navigation_button{
+    color: white;
+    background-color:#ed563b ;
+    border: none;
+    padding: 11px 17px;
+}
+.banner>video{
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+}
+.banner::after{
+    content: 'EASY WITH OUR GYM';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #262642d3;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.program{
+    width: 80%;
+    /* margin: auto; */
+    margin-left: 10%;
+    height: 700px; 
+    background-color:white;
+    text-align: center;
+  
+    margin-bottom: 100vh;
+}
+
+.about_title{
+    
+    padding-top:100px;
+    font-weight: 900;
+}
+
+.about_title>span{
+    color: #ed563b;
+}
+.program>img{
+    margin-top: 30px;
+}
+.program>p{
+    font-size: 17px;
+    color: gray;
+    margin-top: 10px;
+}
+
+
+
+.program_wrapper{
+    display: flex;
+    justify-content: space-between; 
+     flex-wrap: wrap; 
+     background-color: white;
+}
+.program_item{
+    width: 600px;
+    height: 130px;
+    background-color: white;
+    margin:10px 0px;
+    display: flex;
+ 
+    
+}
+.for_img{
+    height: 100%;
+    width: 25%;
+    background-color:white;
+    border-radius: 5px;
+}
+.for_text{
+    height: 100%;
+    width: 75%;
+    background-color: white;
+    text-align: left;
+}
+.for_img>img{
+  height: 100%;
+  width: 100%;
+}
+.for_text>h2{
+    text-align: left;
+    margin-left: 10px;
+}
+.for_text>p{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: rgb(150, 143, 143);
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.for_text>a{
+    margin-left: 10px;
+    padding-top: 10px;
+    color: #ed563b;
+    text-decoration: none;
+   
+}
+.donotthink{
+    height: 700px;
+    width: 100%;
+    
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+    background-image: url(./cta-bg.jpg) ;
+}
+.donotthink>h1{
+    padding-top: 250px;
+    margin-top: 60px;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+.donotthink>h1>span{
+    color: #ed563b;
+}
+.donotthink>p{
+    font-size: 25px;
+    color: white;
+}
+.donotthink>button{
+    height: 40px;
+    width: 200px;
+    background-color: #ed563b;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+}
+.llll{
+    height: 400px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.llll>h1{
+    padding-top: 30px;
+    font-size: 50px;
+    font-weight: 900;
+    color:black;
+    padding-top: 30px;
+}
+.llll>h1>span{
+    color: #ed563b ;
+}
+.llll>img{
+    height: 30px ;
+}
+.llll>p{
+    font-size: 30px;
+    color: gray;
+    padding-top: 10px;
+}
+.classes{
+    height: 700px;
+    background-color: green;
+    display: flex;
+}
+.cl{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+
+}
+.fff{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+}
+.picture{
+    height: 50%;
+    width: 100%;
+    background-color:white;
+   
+}
+.descriptio{
+    height: 50%;
+    width: 100%;
+    background-color:white;
+}
+.hello{
+    height: 15%;
+    width: 80%;
+    margin: 10px 0px;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+
+}
+.hello>img{
+    margin-left: 10px;
+}
+.hello>a{
+    margin-left: 20px;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+.picture>img{
+    height: 100%;
+    width: 80%;
+}
+.descriptio>h1{
+    margin-left: 30px;
+    padding-top: 40px;
+}
+.descriptio>p{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: gray;
+}
+.cl>button{
+    height: 90px;
+    width: 400px;
+    font-size: 25px;
+    font-weight: 700;
+    color: white ;
+    background-color: #ed563b;
+    border: transparent;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 80px;
+}                                              
+
+
+
+
+
+.descriptio>button{
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: #ed563b;
+    border: transparent;
+}
